@@ -1,0 +1,21 @@
+.painting-container{
+    border: 1px solid;
+}
+
+.painting-one{
+    display: flex;
+}
+
+.painting-one img{
+    width: 33.33%;
+    height: auto;
+}
+
+.painting-two{
+    display: flex;
+}
+
+.painting-two img{
+    width: 33.33%;
+    height: auto;
+}
