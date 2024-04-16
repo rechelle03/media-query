@@ -1,5 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffe0;
+}
+
+.header-title{
+    padding: 1vw;
+    border-bottom: .2vw solid gray;
+}
+
+.header-title h1{
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav {
+    background-color: #ffffe0;
+    overflow: hidden;
+    border-bottom: .2vw solid gray;
+  }
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1.2vw 1.4vw;
+    text-decoration: none;
+    font-size: 1.3vw;
+  }
+
+.topnav a:hover {
+    background-color: green;
+    color: white;
+  }
+
 .painting-container{
-    border: 1px solid;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 1vw;
 }
 
 .painting-one{
@@ -19,3 +63,55 @@
     width: 33.33%;
     height: auto;
 }
+
+.painting-article .title {
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+.painting-article .description {
+    text-align: justify;
+    font-size: 1.3vw;
+    line-height: 1.2;
+}
+
+.painting-article .pic img {
+    width: 30%;
+    height: auto;
+    margin-left: 1vw;
+}
+
+.painting-article .video {
+    padding-left: 12vw;
+}
+
+.painting-article .video video {
+    width: 70%;
+    height: auto;
+}
+
+.painter {
+padding: 2vw;
+border-top: .2vw solid gray;
+margin-top: 1vw;
+}
+
+.painter .painter-container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 1vw;
+}
+
+.pic-vid .anita img{
+    width: 100%;
+    height: auto;
+}
+
+.painter-container .description{
+    font-size: 1.3vw;
+    text-align: justify;
+    line-height: 1.5;
+    padding-top: 5vw;
+}
+
